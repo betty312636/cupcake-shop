@@ -62,7 +62,6 @@ header {
 
 
 /**導覽列**/
-
 a {
 	color: #000000;
 	text-decoration: none;
@@ -138,7 +137,12 @@ a:hover {
 	padding: 20px 0 20px 30px;
 	margin: 0;
 	border-bottom: 1px solid #B6B6B6;
-	white-space: nowrap;
+    white-space: nowrap;
+    color: #000000;
+}
+
+.mob-mainmenu-list:hover{
+    color: rgb(177, 7, 7);
 }
 
 .mob-more {
@@ -182,6 +186,14 @@ a:hover {
     font-weight: bold;
     font-size: 20px;
     font-family: Bookman Old Style;
+}
+
+.mainmenu-list a{
+    color: #000000;
+}
+
+.mainmenu-list a:hover{
+    color: rgb(177, 7, 7);
 }
 
 .mainmenu-list-menu {
